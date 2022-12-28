@@ -1,0 +1,92 @@
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+/* =================Components================ */
+.modal-btn{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    color: #FFFFFF;
+    background-color: #FF6C00
+    ;
+}
+
+/* =================Components================== */
+/* =================Header================== */
+.menu-link{  
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: ;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #FF6C00;
+}
+.phone-number{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+}
+.phone-number:hover,
+.phone-number:focus{
+color: #FF6C00;  
+}
+.media-list-link{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+
+}
+.media-list-link:hover,
+.media-list-link:focus{
+    color: #FF6C00;
+}
+.suptitle{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    /* color: rgba(157, 164, 189, 0.6); */
+}
+.suptitle-theme-dark{
+color: rgba(157, 164, 189, 0.6);;
+}
+.suptitle-theme-light{
+    color: #303030;
+}
+.section-description{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;  
+    /* color: #9DA4BD; */
+} 
+/* ==================Header=============== */
+/* ================Hero=================== */ 
+.main-title{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;   
+    letter-spacing: 0.05em;
+    /* color: #FFFFFF; */
+}
+/* ==================Hero================= */

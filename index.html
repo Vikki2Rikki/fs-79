@@ -5,44 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Hat -->
-  <header>
-    <nav>
-        <a href="./"><img src="./images/Logo.svg" alt="logotype"></a>
-        <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Services and prices</a></li>
-            <li><a href="">Barbers</a></li>
-            <li><a href="">Contacts</a></li>
+  <header class="page-header">
+    <nav class="page-nav">
+        <a class="logo" href="./">
+          <img class="logo-icon" src="./images/Logo.svg" alt="logotype"></a>
+        <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="">About</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Services and prices</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Barbers</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
         </ul>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online-booking</button>
+        <a class="phone-number link" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="modal-btn" type="button">Online-booking</button>
     </nav>
   </header>  
   <main>
-    <!-- Hero -->
-    <section>
-        <div>
-          <ul>
-            <li>  
-              <a href="">Instagram</a>
+  <!-- hero -->
+    <section class="hero">
+        <div class="hero-left-side">
+          <ul class="media-list list" >
+            <li class="media-list-item">  
+              <a  class="media-list-link link" href="">Instagram</a>
             </li>
             <li>
-              <a href="">Youtube</a>
+              <a  class="media-list-link link" href="">Youtube</a>
             </li>
           </ul>
         </div>
-        <div>
-          <p>A hair salon for men in Kyiv</p>
-          <h1>BarberShop</h1>
-          <p>We are experts in trendy men’s haircuts. We work quickly, carefully and with style.</p>
+        <div class="hero-right-side">
+          <p class="suptitle suptitle-theme-dark">A hair salon for men in Kyiv</p>
+          <h1 class="main-title">BarberShop</h1>
+          <p class="section-description">We are experts in trendy men`s haircuts. We work quickly, carefully and with style.</p>
         </div>
     </section>
     <!-- Про нас -->
     <section>
-      <ul>
+      <ul class="list" >
         <li>
           <img src="./images/about_us/best_one.jpg" alt="" width="270" height="445">
         </li>
@@ -50,7 +63,7 @@
           <img src="./images/about_us/best_two.jpg" alt="" width="270" height="445">
         </li>
       </ul>
-      <p>About</p> 
+      <p class="suptitle suptitle-theme-light">About</p> 
       <h2>Best Barbershop in your city</h2>
       <p>If you want to add more confidence to your image, you should definitely visit us.</p>
       <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
@@ -58,11 +71,11 @@
     </section>
     <!-- Price -->
     <section>
-      <p>Spend your time with the best masters</p>
+      <p class="suptitle suptitle-theme-light">Spend your time with the best masters</p>
       <h1>Services and prices</h1>
       <!-- <table>
         <tr>
-          <td>Men’s haircut</td>
+          <td>Men`s haircut</td>
           <td>from 300 uah.</td>
         </tr>
         <tr>
@@ -80,7 +93,7 @@
       </table>
       <table>
         <tr>
-          <td>Trainee’s haircut</td>
+          <td>Trainee`s haircut</td>
           <td>from 50 uah.</td>
         </tr>
         <tr>
@@ -88,7 +101,7 @@
           <td>from 200 uah.</td>
         </tr>
         <tr>
-          <td>Children’s haircut (0-12 y.o.)</td>
+          <td>Children`s haircut (0-12 y.o.)</td>
           <td>from 300 uah.</td>
         </tr>
         <tr>
@@ -96,47 +109,47 @@
           <td>from 200 uah.</td>
         </tr>
       </table> -->
-      <ul>
+      <ul class="list" >
 <li>
-  <p></p>
-  <p></p>
+  <p>Men`s haircut</p>
+  <p>from 300 uah.</p>
 </li>
 <li>
-  <p></p>
-  <p></p>
+  <p>Beard trim</p>
+  <p>from 300 uah.</p>
 </li>
 <li>
-  <p></p>
-  <p></p>
+  <p>Mustache trim</p>
+  <p>from 200 uah.</p>
 </li>
 <li>
-  <p></p>
-  <p></p>
+  <p>Straight razor shave</p>
+  <p>from 200 uah.</p>
 </li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
-          <p></p>
-          <p></p>
+          <p>Trainee`s haircut</p>
+          <p>from 50 uah.</p>
         </li>
         <li>
-          <p></p>
-          <p></p>
+          <p>Haircut under the nozzle</p>
+          <p>from 200 uah.</p>
         </li>
         <li>
-          <p></p>
-          <p></p>
+          <p>Children`s haircut (0-12 y.o.)</p>
+          <p>from 300 uah.</p>
         </li>
         <li>
-          <p></p>
-          <p></p>
+          <p>Camouflage of gray hair</p>
+          <pfrom 200 uah.p>
         </li>
               </ul>
       <button type="button">online-booking</button>
     </section>
     <!-- why are we -->
     <section>
-      <ul>
+      <ul class="list">
         <li>
         <span>600</span>
           <p>Satisfied customers per day</p>
@@ -153,17 +166,16 @@
         <span>100</span>
           <p>Gifts for regular customers</p>
         </li>
-        <p>Old traditional school</p>
+        <p class="suptitle">Old traditional school</p>
         <h2>¿Why people come to us?</h2>
         <p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
       </ul>
-
     </section>
     <!-- Our barbers -->
     <section>
-    <p>For true enjoyers of the atmosphere</p>
+    <p class="suptitle suptitle-theme-light">For true enjoyers of the atmosphere</p>
     <h2>Our barbers</h2>
-    <ul>
+    <ul class="list">
       <li>
       <img src="./images/our _barbers/john.jpg" alt="barber cutting client's hair" width="370" height="346">
       <h3>John Smith</h3>
@@ -184,8 +196,8 @@
     <!-- Gallery -->
     <section>
       <h2>Gallery</h2>
-      <p>In Latin, "barba" means "beard"</p>
-      <ul>
+      <p class="suptitle suptitle-theme-light">In Latin, "barba" means "beard"</p>
+      <ul class="list">
         <li>
           <img src="./images/gallery/Rectangle_25.jpg" alt="barber work" width="270" height="360">
         </li>
@@ -205,12 +217,12 @@
       <h2>Online-booking</h2>
     </section>
       <!-- Contact -->
-      <section>barber work
+      <section>
 <h2>Contacts</h2>
 <address>
-  <ul>
-    <li><a href="https://goo.gl/maps/1wCcqVXVb37YcPH99" target="_blank" rel="noopener noreferrer ">st. Vasilkivska, 7A Kyiv, 08132</a></li>
-    <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
+  <ul class="list">
+    <li><a class="" href="https://goo.gl/maps/1wCcqVXVb37YcPH99" target="_blank" rel="noopener noreferrer ">st. Vasilkivska, 7A Kyiv, 08132</a></li>
+    <li><a class="" href="tel:+380441111111">+38 044 111 11 11</a></li>
     <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
   </ul>
 </address>
@@ -221,12 +233,12 @@
   </main>
   <footer>
     <p>&#169; Copyright 2020</p>
-    <ul>
+    <ul class="list">
       <li>  
-        <a href="">Instagram</a>
+        <a class="" href="">Instagram</a>
       </li>
       <li>
-        <a href="">Youtube</a>
+        <a class="" href="">Youtube</a>
       </li>
     </ul>
   </footer>
